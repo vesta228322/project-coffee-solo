@@ -1,5 +1,6 @@
+import CoffeeBeans from '../ui/CoffeeBeans';
+// import logo from '../../assets/img/coffee-beans.svg';
 
-import logo from '../../assets/img/coffee-beans.svg';
 import './Header.scss';
 
 export default function Header() {
@@ -10,7 +11,8 @@ export default function Header() {
                     <ul className="header__list">
                         <li className="header__item">
                             <a href="#" className="header__link">
-                                <img src={logo} alt="logo" className="header__logo" />
+                                {/* <img src={logo} alt="logo" className="header__logo" /> */}
+                                <CoffeeBeans logoColor="coffee-beans" />
                                 Coffee house</a>
                         </li>
                         <li className="header__item">
