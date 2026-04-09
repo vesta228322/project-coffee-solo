@@ -1,0 +1,24 @@
+.beans-divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    margin-top: 20px;
+
+    span {
+        width: 60px;
+        height: 1px;
+    }
+
+    &--white {
+        span {
+            background-color: #fff;
+        }
+    }
+
+    &--black {
+        span {
+            background-color: #000;
+        }
+    }
+}

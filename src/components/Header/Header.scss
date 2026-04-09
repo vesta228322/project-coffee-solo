@@ -1,0 +1,36 @@
+.header {
+    position: absolute;
+    top: 26px;
+    left: 147px;
+    z-index: 10;
+
+    &__nav {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 355px;
+        height: 40px;
+        margin-top: 30px;
+        list-style-type: none;
+    }
+
+    &__link {
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    &__logo {
+        position: relative;
+        bottom: 15px;
+        height: 35px;
+    }
+
+}
