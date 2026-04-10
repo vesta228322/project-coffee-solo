@@ -1,0 +1,7 @@
+.catalog__list {
+    display: grid;
+    grid-template-columns: repeat(3, 220px);
+    justify-content: center;
+    gap: 60px;
+    margin-top: 60px;
+}

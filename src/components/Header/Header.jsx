@@ -1,6 +1,5 @@
 import CoffeeBeans from '../ui/CoffeeBeans';
-// import logo from '../../assets/img/coffee-beans.svg';
-
+import { Link } from 'react-router-dom';
 import './Header.scss';
 
 export default function Header() {
@@ -10,16 +9,15 @@ export default function Header() {
                 <nav className="header__nav">
                     <ul className="header__list">
                         <li className="header__item">
-                            <a href="#" className="header__link">
-                                {/* <img src={logo} alt="logo" className="header__logo" /> */}
+                            <Link to="/" className="header__link">
                                 <CoffeeBeans logoColor="coffee-beans" />
-                                Coffee house</a>
+                                Coffee house</Link>
                         </li>
                         <li className="header__item">
-                            <a href="#" className="header__link">Our Coffee</a>
+                            <Link to="/our-coffee" className="header__link">Our Coffee</Link>
                         </li>
                         <li className="header__item">
-                            <a href="#" className="header__link">For your pleasure</a>
+                            <Link to="/" className="header__link">For your pleasure</Link>
                         </li>
                     </ul>
                 </nav>

@@ -1,0 +1,36 @@
+.catalog-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    width: 220px;
+    height: 260px;
+    background-color: #fff;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.295);
+    border-radius: 8px;
+    padding: 37px 0 22px 0;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        gap: 14px;
+        margin-top: 14px;
+    }
+
+    &__name {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    &__price {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    &__country {
+        font-size: 14px;
+        font-weight: bold;
+    }
+}
