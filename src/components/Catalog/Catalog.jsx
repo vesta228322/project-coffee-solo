@@ -5,7 +5,7 @@ import { data } from "../../data";
 
 import './Catalog.scss';
 
-export default function Catalog() {
+export default function Catalog({ bannerTitle, bannerClass }) {
 
     const [searchTerm, setSearchTerm] = useState('');
     const [filter, setFilter] = useState('');
@@ -29,7 +29,7 @@ export default function Catalog() {
             <div className="container">
                 <div className="catalog__wrapper">
                     <CatalogFilter searchTerm={searchTerm} onSearch={setSearchTerm} onFilter={setFilter} />
-                    <CatalogList data={searchData} />
+                    <CatalogList data={searchData} bannerTitle={bannerTitle} bannerClass={bannerClass} />
                 </div>
             </div>
         </section>

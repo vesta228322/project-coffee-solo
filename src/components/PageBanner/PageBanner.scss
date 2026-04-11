@@ -1,5 +1,4 @@
 .page-banner {
-    background: url('../../assets/img/our-coffee.jpg') center/cover no-repeat;
     height: 260px;
     padding: 130px 0 84px 0;
 
@@ -9,4 +8,12 @@
         font-size: 40px;
         font-weight: bold;
     }
+}
+
+.page-banner__our-coffee {
+    background: url('../../assets/img/our-coffee.jpg') center/cover no-repeat;
+}
+
+.page-banner__for-your-pleasure {
+    background: url('../../assets/img/for-your-pleasure-bg.jpg') center/cover no-repeat;
 }

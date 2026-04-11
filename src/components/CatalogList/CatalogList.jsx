@@ -2,7 +2,7 @@ import CatalogItem from "../CatalogItem/CatalogItem";
 
 import "./CatalogList.scss";
 
-export default function CatalogList({ data }) {
+export default function CatalogList({ data, bannerTitle, bannerClass }) {
     return (
         <div className="catalog__list">
             {data.map((item) => {
@@ -12,7 +12,9 @@ export default function CatalogList({ data }) {
                         price={item.price}
                         country={item.country}
                         image={item.image}
-                        id={item.id} />
+                        id={item.id}
+                        bannerTitle={bannerTitle}
+                        bannerClass={bannerClass} />
                 )
             })}
         </div>

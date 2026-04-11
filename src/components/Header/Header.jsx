@@ -17,7 +17,7 @@ export default function Header() {
                             <Link to="/our-coffee" className="header__link">Our Coffee</Link>
                         </li>
                         <li className="header__item">
-                            <Link to="/" className="header__link">For your pleasure</Link>
+                            <Link to="/for-your-pleasure" className="header__link">For your pleasure</Link>
                         </li>
                     </ul>
                 </nav>

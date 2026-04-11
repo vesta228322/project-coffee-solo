@@ -2,9 +2,13 @@
 import { Link } from "react-router-dom";
 import "./CatalogItem.scss";
 
-export default function CatalogItem({ name, price, country, image, id }) {
+export default function CatalogItem({ name, price, country, image, id, bannerTitle, bannerClass }) {
     return (
-        <Link to={`/our-coffee/${id}`}>
+        <Link to={`/product/${id}`}
+            state={{
+                title: bannerTitle,
+                bgClass: bannerClass
+            }}>
             <div className="catalog-item">
                 <img src={image} alt={name} />
                 <div className="catalog-item__content">

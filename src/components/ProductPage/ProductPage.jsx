@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useParams, useLocation } from "react-router-dom";
 import InfoSection from "../InfoSection/InfoSection";
 import coffeImg from "../../assets/img/coffee-img.jpg";
 import Header from "../Header/Header";
@@ -12,11 +12,13 @@ export default function ProductPage() {
 
     const { id } = useParams();
     const coffee = data.find(item => item.id === +id);
+    const location = useLocation();
+    const { title = 'Our Coffee', bgClass = 'page-banner__our-coffee' } = location.state || {};
 
     return (
         <>
             <Header />
-            <PageBanner title="Our Coffee" bgClass="page-banner__our-coffee" />
+            <PageBanner title={title} bgClass={bgClass} />
             <InfoSection title={'About it'} image={coffeImg} alt="coffe" extraClass="info-section__product">
                 <div className="product-info" >
                     <p className="product-info__subtitle" ><b>Country:</b> {coffee.country}</p>
