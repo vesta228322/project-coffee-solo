@@ -2,7 +2,7 @@ import BeansDivider from "../ui/BeansDivider";
 
 import "./InfoSection.scss";
 
-export default function InfoSection({ title, image, alt, descr, children, extraClass = '' }) {
+export default function InfoSection({ title, image, alt, descr, children, extraClass }) {
     return (
         <section className={`info-section ${extraClass}`}>
             <div className="container">
@@ -13,7 +13,7 @@ export default function InfoSection({ title, image, alt, descr, children, extraC
                     <div className="info-section__content">
                         <h2 className="info-section__title">{title}</h2>
                         <BeansDivider color="black" />
-                        <div className="info-section__descr-wra">
+                        <div >
                             {(Array.isArray(descr) ?
                                 descr.map((item, i) => {
                                     return (
