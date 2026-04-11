@@ -1,6 +1,14 @@
 .info-section {
     padding-top: 70px;
 
+    &__product {
+
+        .info-section__wrapper {
+            grid-template-columns: 390px 428px;
+            gap: 55px;
+        }
+    }
+
     &__wrapper {
         display: grid;
         grid-template-columns: 272px 350px;
@@ -25,13 +33,5 @@
 
     &__image {
         filter: drop-shadow(5px 5px 30px rgba(0, 0, 0, 0.25));
-    }
-
-    &__divider {
-        width: 240px;
-        height: 1px;
-        background-color: #000;
-        margin: 0 auto;
-        margin-top: 60px;
     }
 }

@@ -2,14 +2,15 @@
 
 import "./CatalogFilter.scss";
 
-export default function CatalogFilter({ onSearch, onFilter }) {
+export default function CatalogFilter({ onSearch, onFilter, searchTerm }) {
     return (
         <div className="catalog-filter">
             <div className="container">
+                <div className="catalog-filter__divider"></div>
                 <div className="catalog-filter__wrapper">
                     <div className="catalog-filter__search">
                         <label htmlFor="search">Looking for</label>
-                        <input type="text" id="search" placeholder="start typing here" onChange={(e) => onSearch(e.target.value)} />
+                        <input type="text" id="search" placeholder="start typing here" value={searchTerm} onChange={(e) => onSearch(e.target.value)} />
                     </div>
                     <div className="catalog-filter__filter">
                         <label htmlFor="country">Or filter</label>

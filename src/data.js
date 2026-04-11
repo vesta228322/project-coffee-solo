@@ -1,0 +1,11 @@
+import coffe from "./assets/img/our-best/aromistico.png";
+
+
+export const data = [
+    { name: "AROMISTICO Coffee 1 kg", descr: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", price: "6.99$", country: "Brazil", image: coffe, id: 1 },
+    { name: "AROMISTICO Coffee 1 kg", descr: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", price: "6.99$", country: "Kenya", image: coffe, id: 2 },
+    { name: "AROMISTICO Coffee 1 kg", descr: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", price: "6.99$", country: "Colombia", image: coffe, id: 3 },
+    { name: "AROMISTICO Coffee 1 kg", descr: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", price: "6.99$", country: "Brazil", image: coffe, id: 4 },
+    { name: "AROMISTICO Coffee 1 kg", descr: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", price: "6.99$", country: "Brazil", image: coffe, id: 5 },
+    { name: "AROMISTICO Coffee 1 kg", descr: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", price: "6.99$", country: "Brazil", image: coffe, id: 6 }
+];

@@ -1,5 +1,12 @@
 .catalog-filter {
 
+    &__divider {
+        width: 240px;
+        height: 1px;
+        background-color: #000;
+        margin: 60px auto 60px auto;
+    }
+
     &__wrapper {
         display: grid;
         grid-template-columns: 284px 407px;
