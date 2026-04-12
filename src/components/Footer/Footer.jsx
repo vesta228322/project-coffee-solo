@@ -19,7 +19,7 @@ export default function Footer() {
                             <Link to="/our-coffee" className="footer__link">Our Coffee</Link>
                         </li>
                         <li className="footer__item">
-                            <Link to="/" className="footer__link">For your pleasure</Link>
+                            <Link to="/for-your-pleasure" className="footer__link">For your pleasure</Link>
                         </li>
                     </ul>
                 </nav>
